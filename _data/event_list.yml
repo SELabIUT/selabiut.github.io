@@ -7,7 +7,21 @@
   type_id: online_workshop
   type: Workshop
   register_link: 'https://forms.gle/dfFS6UqwgvyerZQ88'
-  detail_page: '2021-02-07-microservice_workshop-event.md'
+  detail_page: '/2021-02-07-microserviceworkshop-event/'
+  pdf:
+  url: "#"
+  doi:
+  code_link:
+
+#Webinar
+- title: "Webinar on Natural Language Processing (NLP) for Software Engineering"
+  authors: "Speaker: Atish Kumar Dipongkor, Assistant Professor, Jashore University of Science and Technology"
+  booktitle: "Online Webinar | Speaker - Atish Kumar Dipongkor"
+  year: 2021
+  type_id: online_webinar
+  type: Webinar
+  register_link: 
+  detail_page: '/2021-04-26-nlpforsofteng-event/'
   pdf:
   url: "#"
   doi:
