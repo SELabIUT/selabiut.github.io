@@ -19,5 +19,17 @@ module Jekyll
       html = Kramdown::Document.new(tmpl).to_html
     end
   end
+
+  class NoLinebreaksBlock < Liquid::Block
+
+    def initialize(tag_name, text, tokens)
+       super
+    end
+
+    def render(context)
+      super.gsub(/\s+/, " ")
+    end
+  end
 end
 Liquid::Template.register_tag('markdown', Jekyll::MarkdownTag)
+Liquid::Template.register_tag('nolinebreaks', Jekyll::NoLinebreaksBlock)
