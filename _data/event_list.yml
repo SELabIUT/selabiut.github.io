@@ -8,6 +8,7 @@
   type: Workshop
   register_link: 'https://forms.gle/dfFS6UqwgvyerZQ88'
   detail_page: '/2021-02-07-microserviceworkshop-event/'
+  external_detail_page:
   pdf:
   url: "#"
   doi:
@@ -22,6 +23,22 @@
   type: Webinar
   register_link: 
   detail_page: '/2021-04-26-nlpforsofteng-event/'
+  external_detail_page:
+  pdf:
+  url: "#"
+  doi:
+  code_link:
+
+#Workshop
+- title: "Workshop on DevOps in Bangladesh 2019"
+  authors: "Instructors: Mohammad Mizanur Rahman (Brainstation-23), Syedur Rahman (The Jaxara It Ltd.), Ratul Basak (Secure Link Services Ltd.) and Bazlur Rahman Rokon (bKash Limited)"
+  booktitle: "Offline & Online Workshop | Streaming Partner - Bangladesh Research and Education Network (BdREN), Secure Link Services Ltd."
+  year: 2021
+  type_id: workshop
+  type: Workshop
+  register_link: 
+  detail_page:
+  external_detail_page: 'https://www.thedailystar.net/shout/news/iit-du-organises-workshop-devops-1783438'
   pdf:
   url: "#"
   doi:

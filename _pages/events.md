@@ -42,6 +42,9 @@ permalink: /events/
   {% if event.register_link %}
     <a href="{{ event.register_link }}" target="_blank">Register</a> |
   {% endif %} 
+  {% if event.external_detail_page %}
+    <a href="{{ event.external_detail_page }}" target="_blank">Detail</a>
+  {% endif %} 
   {% if event.detail_page %}
     {% for page in site.posts %}
      {% if page.url == event.detail_page %} 
