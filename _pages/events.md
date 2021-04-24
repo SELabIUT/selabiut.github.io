@@ -34,7 +34,6 @@ permalink: /events/
  
 </div>
 <div class="col-sm-10">
-{% nolinebreaks %}
 
   <p>**[{{ event.title }}]({{event.detail_page}})** <br/>
   <em>{{ event.authors }} </em><br/>
@@ -43,7 +42,6 @@ permalink: /events/
   {% if event.pdf and event.doi %} | {% endif %}  
   {% if event.pdf %} <a href="{{ event.pdf }}" target="_blank">Paper PDF</a> {% endif %} {% if event.pdf and event.doi %} | {% endif %} {% if event.doi %} <a href="{{ event.doi }}" target="_blank">DOI</a> {% endif %} {% if event.pdf and event.code_link %} | {% endif %}  {% if event.code_link %} <a href="{{ event.code_link }}" target="_blank">Code</a> {% endif %}
   </p>
-{% endnolinebreaks %}
 
 </div>
 </div>
