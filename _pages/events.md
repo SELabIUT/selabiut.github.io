@@ -36,22 +36,10 @@ permalink: /events/
 <div class="col-sm-10">
 {% nolinebreaks %}
 
-  <p>**{{ event.title }}** <br/>
+  <p>**[{{ event.title }}]({{event.detail_page}})** <br/>
   <em>{{ event.authors }} </em><br/>
   {{ event.booktitle }} <b>[{{event.year}}]</b> <br>
-  {% if event.register_link %}
-    <a href="{{ event.register_link }}" target="_blank">Register</a> |
-  {% endif %} 
-  {% if event.external_detail_page %}
-    <a href="{{ event.external_detail_page }}" target="_blank">Detail</a>
-  {% endif %} 
-  {% if event.detail_page %}
-    {% for page in site.posts %}
-     {% if page.url == event.detail_page %} 
-        <a href="{{ page.url | absolute_url }}" target="_blank">Detail</a>
-      {% endif %}
-    {% endfor %}
-  {% endif %} 
+
   {% if event.pdf and event.doi %} | {% endif %}  
   {% if event.pdf %} <a href="{{ event.pdf }}" target="_blank">Paper PDF</a> {% endif %} {% if event.pdf and event.doi %} | {% endif %} {% if event.doi %} <a href="{{ event.doi }}" target="_blank">DOI</a> {% endif %} {% if event.pdf and event.code_link %} | {% endif %}  {% if event.code_link %} <a href="{{ event.code_link }}" target="_blank">Code</a> {% endif %}
   </p>
