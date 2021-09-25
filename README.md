@@ -1,5 +1,5 @@
 # About The Site
-This is the official website of [DSSE Research Group](http://dsse.github.io/) at [IIT University of Dhaka](http://iit.du.ac.bd/).
+This is the official website of [SELab Research Group](https://selabiut.github.io/) at [Islamic University of Technology](https://cse.iutoic-dhaka.edu/).
 <br>
 This website is powered by [Jekyll](https://jekyllrb.com/) and some Bootstrap, Bootwatch. The design is adopted from
 [Allan Lab](https://github.com/mpa139/allanlab). 

@@ -1,13 +1,13 @@
 ---
-title: "DSSE->Photos"
+title: "SELab->Photos"
 layout: piclay 
-excerpt: "DSSE -- Photos"
+excerpt: "SELab -- Photos"
 permalink: /photos/
 ---
 
 <h1 style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 32px;">Group Meetup and Moments</h1>
 
-<div class="popup-gallery">
+<!-- <div class="popup-gallery">
 {% assign number_printed = 0 %} {% for pic in site.data.photos %}
 {% assign even_odd = number_printed | modulo: 4 %}
 
@@ -40,4 +40,4 @@ permalink: /photos/
 </div>
 {% endif %}
 </div>
-<p> &nbsp; </p>
+<p> &nbsp; </p> -->

@@ -1,52 +1,35 @@
 # 1
 - broad_domain_name: Code Search
   domain_id: code_search
+
 # 2
-- broad_domain_name: Code Smell & Refactoring
-  domain_id: code_smell_and_refactoring
+- broad_domain_name: Stack Overflow Mining
+  domain_id: stack_overflow_mining
+
 # 3
-- broad_domain_name: Bug Triage
-  domain_id: bug_triage
-# 4
 - broad_domain_name: Software Testing
   domain_id: software_testing
-# 5
-- broad_domain_name: Cloud Computing
-  domain_id: cloud_computing
-# 6
-- broad_domain_name: Software Project Management
-  domain_id: software_project_management
-# 7
-- broad_domain_name: Adaptive and Distributed System
-  domain_id: adaptive_and_distributed_system
-# 8
+
+# 4
 - broad_domain_name: Design Pattern
   domain_id: design_pattern
-# 9
+
+# 5
 - broad_domain_name: Code Clone
   domain_id: code_clone
-# 10
-- broad_domain_name: Software Architecture & Design
-  domain_id: software_architecture
-# 11
-- broad_domain_name: Bug Localization
-  domain_id: bug_localization
-# 12
-- broad_domain_name: Software Requirement Analysis
-  domain_id: software_requirement_analysis
-  
-# 13
-- broad_domain_name: Program Repair
-  domain_id: program_repair
-  
-# 14
+
+# 6
 - broad_domain_name: Empirical Study
   domain_id: empirical_study
 
-#15  
+#7 
 - broad_domain_name: Fix-Inducing Changes
   domain_id: fix_iducing_changes
 
-#16  
-- broad_domain_name: Technical Report
-  domain_id: technical_report
+#8 
+- broad_domain_name: Sentiment Analysis
+  domain_id: sentiment_analysis
+
+#9 
+- broad_domain_name: Mining Software Repository
+  domain_id: mining_software_repository

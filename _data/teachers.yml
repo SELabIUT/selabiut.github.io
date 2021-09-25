@@ -1,0 +1,39 @@
+- name: Mohayeminul Islam
+  photo: mohayeminul-islam.jpg
+  current_position: Assistant Professor
+  current_organization: Study Leave
+  email: mohayemin@ualberta.ca
+  homepage: "https://mohayemin.github.io/"
+  number_educ: 2
+  education1: MSc University of Dhaka   
+  education2: BSc University of Dhaka
+
+- name: Tajkia Rahman Toma
+  photo: tajkia-rahman-toma.jpeg
+  current_position: Assistant Professor
+  current_organization: Study Leave
+  email: tajkiatoma@iut-dhaka.edu
+  homepage: "https://scholar.google.com/citations?user=SypEUOoAAAAJ&hl=en"
+  number_educ: 2
+  education1: MSc University of Dhaka   
+  education2: BSc University of Dhaka
+
+- name: Md. Jubair Ibna Mostafa 
+  photo: md-jubair-ibna-mostafa.jpeg
+  current_position: Lecturer 
+  current_organization: Islamic University of Technology
+  email: jubair@iut-dhaka.edu
+  homepage: https://www.linkedin.com/in/md-jubair-ibna-mostafa-6b8563126/
+  number_educ: 2
+  education1: MSc University of Dhaka
+  education2: BSc University of Dhaka  
+
+- name: Md. Nazmul Haque 
+  photo: Nazmul-Haque.png
+  current_position: Lecturer 
+  current_organization: Islamic University of Technology
+  email: nazmul.haque@iut-dhaka.edu
+  homepage: https://cse.iutoic-dhaka.edu/profile/nazmulhaque/educations
+  number_educ: 2
+  education1: MSc University of Dhaka
+  education2: BSc University of Dhaka  

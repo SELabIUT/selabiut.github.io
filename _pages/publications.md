@@ -1,16 +1,13 @@
 ---
-title: "DSSE->Publications"
+title: "SELab->Publications"
 layout: publications 
-excerpt: "DSSE -- Publications."
+excerpt: "SELab -- Publications."
 sitemap: false 
 permalink: /publications/
 ---
 
 
 <h1 style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 32px;">Publications</h1>
-
-(For a full list, please go to <a href="https://dblp.uni-trier.de/pid/33/8657.html" target="_blank">DBLP</a>
-or <a href="https://scholar.google.com/citations?hl=en&user=G88J0-EAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>)
 
 <div class="row" style="margin-bottom: 0">
 <div id="filterByYear" class="filters">
@@ -21,7 +18,7 @@ or <a href="https://scholar.google.com/citations?hl=en&user=G88J0-EAAAAJ&view_op
 <div class="row">
 <div id="filterByDomain" class="filters">
 <!-- research domains will be added dynamically-->
-{% for res_area in site.data.research_domains %}<button class="btn  filterBtn " id="{{res_area.domain_id}}">{{res_area.broad_domain_name}}</button>
+{% for res_area in site.data.research_domains %}<button class="btn filterBtn " id="{{res_area.domain_id}}">{{res_area.broad_domain_name}}</button>
 {% endfor %}
 </div>
 </div>

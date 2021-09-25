@@ -1,38 +1,37 @@
 ---
-title: "DSSE->Members"
+title: "SELab->Members"
 layout: gridlay
-excerpt: "DSSE -- Members"
+excerpt: "SELab -- Members"
 sitemap: false
 permalink: /members/
 ---
 
-<h2 style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 32px;">Head of DSSE Research Group</h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 32px;">Head of SELab</h2>
 <br>
 <div class="row">
   <div class="col-sm-3 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/group-members/current_members/Kazi_Muheymin_Us_Sakib.jpg" class="img-responsive" width="80%" style="float: center" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/group-members/faculty/Shohel-Ahmed.png" class="img-responsive" width="80%" style="float: center" />
   <br>
-  <h4><a href="http://www.iit.du.ac.bd/about_iit/individual_teacher/47">Dr. Kazi Muheymin-Us-Sakib</a></h4>
-  Professor<br>
-  University of Dhaka<br>
-  <i><sakib@iit.du.ac.bd></i><br>
-  BSc(DU), MSc(DU) and PhD(RMIT)
+  <h4><a href="http://www.iit.du.ac.bd/about_iit/individual_teacher/47">Shohel Ahmed</a></h4>
+  Assistant Professor<br>
+  Islamic University of Technology<br>
+  <i><a.shohel@iut-dhaka.edu></i><br>
+  BSc(IUT)<br>
+  Former Software Engineer<br>
+  Samsung R&D Ltd, BD<br>
   </div>
   <div class="col-sm-9"> 
   <p align="justify">
-<b>Dr. Kazi Muheymin-Us-Sakib</b> is a Professor at the <a href="http://www.iit.du.ac.bd/about_iit/individual_teacher/47" target="_blank"> Institute of Information Technology (IIT)</a>, <a href="http://du.ac.bd/" target="_blank"> University of Dhaka </a>. He completed his Ph.D. at <a  href="https://www.rmit.edu.au/" target="_blank">RMIT University </a> on Distributed Systems and pursued a master's and a bachelor's degree in <a href="http://www.cse.du.ac.bd/" target="_blank"> Computer Science and Engineering (CSE)</a> at the University of Dhaka before joining as a faculty.
-His research interest broadly lies in software engineering and its various aspects, for example, Adaptive and Distributed System,  Cloud Computing, Software Testing, Software Architecture & Design, Requirement Analysis, Project Management, Code Smell & Refactoring, Code Search and Code Clone. 
-His work has been published in major and premier conferences & journals in the area of software engineering such as ICSE, ICSME, APSEC, ENASE, SANER attracting substantial interest from the software engineering research community.
-His research work and projects have been funded by <a href="https://ictd.gov.bd/" target="_blank">ICT Division Bangladesh </a>, <a href="https://ptd.gov.bd/" target="_blank"> Ministry of Posts, Telecommunications and Information Technology, Bangladesh </a>, <a href="http://www.ugc.gov.bd/" target="_blank"> University Grant Commission (UGC) </a> and, <a href="https://www.bdren.net.bd/" target="_blank"> Bangladesh Research and Education Network (BdREN)</a>. 
-Former students of his reearch group have obtained Ph.D. position at Imperial College London, Carnegie Mellon University (CMU),  NC State University, University at Buffalo (SUNY), College of William and Mary, University of Alberta, and Concordia University. Besides, his graduated student got employment in high-tech industries like Amazon, Microsoft and, secured faculty position in many prestigious and renowned public and private universities in Bangladesh, for instance, University of Dhaka (DU), Shahjalal University of Science and Technology (SUST), Bangladesh University of Professionals (BUP), Islamic University of Technology (IUT), BRAC University, Noakhali Science and Technology University (NSTU), University of Barishal, Jashore University of Science and Technology (JUST).</p> </div>
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p> </div>
 </div>
 
 
-<h2 style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 32px;">Members</h2>
+
+<h2 style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 32px;">Faculty Members</h2>
 <br>
 
 {% assign number_printed = 0 %}
-{% for member in site.data.members %}
+{% for member in site.data.teachers %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -41,7 +40,7 @@ Former students of his reearch group have obtained Ph.D. position at Imperial Co
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/group-members/current_members/{{ member.photo }}"  width="128px" height="128px" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/group-members/faculty/{{ member.photo }}"  width="128px" height="128px" style="float: left" />
   <h4><a href="{{ member.homepage }}" target="_blank">{{ member.name }}</a></h4>
   <i><b>{{ member.current_position }}</b></i> <br>
   <i><b>{{ member.current_organization }}</b></i> <br>
@@ -93,6 +92,43 @@ Former students of his reearch group have obtained Ph.D. position at Imperial Co
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+
+
+
+<h2 style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 32px;">Members</h2>
+<br>
+
+{% assign number_printed = 0 %}
+{% for member in site.data.members %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/group-members/current_members/{{ member.photo }}"  width="128px" height="128px" style="float: left" />
+  <h4><a href="{{ member.homepage }}" target="_blank">{{ member.name }}</a></h4>
+  <i>{{ member.current_position }} </i> <br>
+  <i>{{ member.student_id }} </i> <br>
+  <i>email: {{ member.email }}</i>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+
 
 <h2 style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 32px;">Alumni</h2>
 <br>
@@ -160,12 +196,11 @@ Former students of his reearch group have obtained Ph.D. position at Imperial Co
 </div>
 {% endif %}
 
-
+<br/>
+<br/>
 ### Administrative Support
-If you need to update your information, feel free to contact <a href="https://mrhmisu.github.io/" target="_blank">Md Rakib Hossain (Misu)</a>.
-<br>
-<br>
-<br>
+If you need to update your information, feel free to contact <a href="mailto:jubair@iut-dhaka.edu" target="_blank">Md. Jubair Ibna Mostafa</a>.
+
 <style>
   @media (max-width: 420px) {.fa-ul::before{content: "\A";white-space: pre;}}
 </style>

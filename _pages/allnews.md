@@ -1,7 +1,7 @@
 ---
-title: "DSSE->News"
+title: "SELab->News"
 layout: textlay
-excerpt: "DSSE -- News"
+excerpt: "SELab -- News"
 sitemap: false
 permalink: /allnews.html
 ---
