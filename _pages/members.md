@@ -22,7 +22,10 @@ permalink: /members/
   </div>
   <div class="col-sm-9"> 
   <p align="justify">
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p> </div>
+Shohel Ahmed is working as an Assistant Professor at the Department of Computer Science and Engineering, Islamic University of Technology, Bangladesh. He served as a faculty member of Sylhet International University, Bangladesh for 6 years. Later he joined Samsung R&D Institute Bangladesh (SRBD) as Technical Lead. There he served almost 5 years and left the company as a Chief Engineer. He also worked at Kona Software Lab Ltd. as Seniorr Project Manager
+for 2.5 years. He has received M.Sc from the Computer Science and Engineering, INHA University, South Korea in 2009. He has completed B.Sc. in Computer Science & Information Technology from Islamic University of Technology
+Bangladesh. His research interests Software Engineering, network analysis etc.
+</p> </div>
 </div>
 
 
@@ -196,7 +199,6 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 </div>
 {% endif %}
 
-<br/>
 <br/>
 ### Administrative Support
 If you need to update your information, feel free to contact <a href="mailto:jubair@iut-dhaka.edu" target="_blank">Md. Jubair Ibna Mostafa</a>.

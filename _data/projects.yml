@@ -1,13 +1,26 @@
 ###2021###
 #project-1
-- title: "An Empirical Study on StackOverflow to Identify Neophytes Activities"
+- title: "An Empirical Study on Neophytes of Stack Overflow: How welcoming the community is towards them"
   members: Suzad Mohammad, Abdullah Al Jubair, Zahin Raidah Maisha
-  description: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the
+  description: "Stack Overflow has become a well-known Q&amp;A platform for programmers with a rapidly
+    expanding community of new users. However, a considerable portion of these new
+    users claim to face hostile environments which is a major concern and hindrance
+    towards the enhancement of a skillful community. In our work, we investigate this
+    group of users and term them as “Neophytes”, binding conditions of either being a
+    registered user of not more than 45 days or having a reputation less than or equal to 50.
+    We organized our research work into two research questions where we investigate
+    whether neophytes actually face hurdles in Stack Overflow and if so, identify the
+    reasons for it with both qualitative and quantitative analysis. We find that: 1) Yes,
+    Neophytes face hurdles in Stack Overflow; 2) The reasons for having a hard time are
+    harsh moderation of posts, negligence of the posts, Deletion or Closing of posts,
+    Downvoting without providing any proper reasoning etc. Our findings can be used to
+    guide in future works where we observe the reaction of neophytes in adverse situations
+    and recommend some steps for positive change to the community."
 
 #project-2
-- title: "Topic-wise Difficulty based Questions Recommendation in StackOverflow"
-  members: Maliha Noushin Raida, Zannatun naim sristy, Sheikh Moonwara Anjum Monisha, Nawshin Ulfat
-  description: will be updated
+- title: "Topic-wise Difficulty based Questions Recommendation to users on StackOverflow"
+  members: "Maliha Noushin Raida, Zannatun naim sristy, Sheikh Moonwara Anjum Monisha, Nawshin Ulfat"
+  description: "Among all the questions that arise on Stack Overflow on a regular basis it is both difficult and time consuming to find a convenient question which a user can answer properly. Stack Overflow provides a tag filtering system in this essence but it doesn’t provide any mechanism to recommend questions to a user according to their frequent working domains and expertise level. Now we are going to implement a method that will classify questions in different difficulty levels and more granular level of topics when a question arises and notifies any user according to his frequently answered question which includes both his interest and expertise level."
 
 #project-3
 - title: "Sentiment Analysis in Software Development"

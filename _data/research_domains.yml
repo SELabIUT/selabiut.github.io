@@ -11,25 +11,17 @@
   domain_id: software_testing
 
 # 4
-- broad_domain_name: Design Pattern
-  domain_id: design_pattern
-
-# 5
 - broad_domain_name: Code Clone
   domain_id: code_clone
 
-# 6
-- broad_domain_name: Empirical Study
-  domain_id: empirical_study
-
-#7 
+#5 
 - broad_domain_name: Fix-Inducing Changes
   domain_id: fix_iducing_changes
 
-#8 
+#6 
 - broad_domain_name: Sentiment Analysis
   domain_id: sentiment_analysis
 
-#9 
+#7 
 - broad_domain_name: Mining Software Repository
   domain_id: mining_software_repository

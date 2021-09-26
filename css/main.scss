@@ -117,7 +117,7 @@ firstp {
   background: white;
   box-shadow: 0px;
   border-width: 1px;
-  border-color: #7a0000;
+  border-color: #144046;
   border-radius: 2px;
   color: black;
   font-family: 'Roboto', sans-serif;
@@ -127,7 +127,7 @@ firstp {
 }
 
 .btn:hover {
-  background-color: #7a0000;
+  background-color: #144046;
   color: white;
   margin: 10px;
   border-bottom-width: 0;
@@ -158,6 +158,6 @@ firstp {
 
 .filterBtn.selected {
   border-bottom-width: 1px;
-  background-color: #7a0000;
+  background-color: #144046;
   color: white;
 }

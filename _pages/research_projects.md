@@ -11,17 +11,20 @@ permalink: /research_projects/
 
 <div id="projects_space">
 {% for project in site.data.projects %}
-<div class="col-sm-12">
-  <p>
-  **{{ project.title }}** <br/>
-  <em>{{ project.members }} </em> </p>
-  <p>{{ project.description }} </p><br/>
+<div class="box">
+  <span class="col-sm-2"><b>Title</b></span>
+  <span class="col-sm-10">**{{ project.title }}**</span> <br/>
+
+  <span class="col-sm-2"><b>Members</b></span>
+  <span class="col-sm-10"> <em>{{ project.members }}</em></span> <br/>
+
+  <span class="col-sm-2"><b>Description</b></span>
+  <span class="col-sm-10"> {{ project.description }}</span> <br/>
+  &nbsp;
 </div>
 {% endfor %}
-</div>
 
 
-<br><br>
 <style>
 .container {
   height: 200px;
@@ -37,12 +40,11 @@ permalink: /research_projects/
   transform: translateY(-50%);
 }
 
-.box {
-  display:inline-block;
-  width:8px;
-  height:8px;
-  background-color: grey;
-  margin-right:6px;
+div.box:hover {
+  background-color: rgba(0,0,0,0.02);
+  border-radius: 25px;
 }
+
+
 </style>
 <br><br>

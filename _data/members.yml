@@ -1,61 +1,61 @@
 - name: Suzad Mohammad 
-  photo: suzad-mohammad.png 
+  photo: Suzad-Mohammad.png
   current_position: SWE Student
-  email: suzad@iut-dhaka.edu
+  email: suzadmohammad@iut-dhaka.edu
   student_id: 170042024
 
 - name: Abdullah Al Jubair 
-  photo: abdullah-al-jubair.png 
+  photo: Abdullah-Al-Jubair.jpg 
   current_position: SWE Student
-  email: abdul_jubair@iut-dhaka.edu
+  email: aljobair@iut-dhaka.edu
   student_id: 170042030
 
 - name: Zahin Raidah Maisha
-  photo: zahin.png 
+  photo: Zahin-Raidah-Maisha.jpg
   current_position: SWE Student
-  email: zahin@iut-dhaka.edu
+  email: zahinraidah@iut-dhaka.edu
   student_id: 170042032
 
 - name: Maliha Noushin Raida
-  photo: 
+  photo: Maliha-Noushin-Raida.png
   current_position: SWE Student
-  email: maliha@iut-dhaka.edu
+  email: malihanoushin@iut-dhaka.edu
   student_id: 170042001
 
-- name: Zannatun naim sristy
-  photo: sristry.png
+- name: Zannatun Naim Sristy
+  photo: Zannatun-Naim-Sristy.png
   current_position: SWE Student
-  email: sristy@iut-dhaka.edu
+  email: zannatunnaim@iut-dhaka.edu
   student_id: 170042043
 
 - name: Sheikh Moonwara Anjum Monisha
-  photo: 
+  photo: Sheikh-Moonwara-Anjum-Monisha.png
   current_position: SWE Student
-  email: monisha@iut-dhaka.edu
+  email: moonwaraanjum@iut-dhaka.edu
   student_id: 170042057
 
 - name: Nawshin Ulfat
-  photo: 
+  photo: Nawshin-Ulfat.png
   current_position: SWE Student
-  email: nawshin@iut-dhaka.edu
+  email: nawshinulfat@iut-dhaka.edu
   student_id: 170042081
 
 - name: Sadat Bin Sharifuddin 
-  photo: sadat-bin-sharifuddin.png 
+  photo: Sadat-Bin-Sharfuddin.jpg 
   current_position: SWE Student
-  email: sadat@iut-dhaka.edu
+  email: sadatsharfuddin@iut-dhaka.edu
   student_id: 170042068
  
 - name: Muhtasim Abid
-  photo: 
+  photo: Muhtasim-Abid.jpg
   current_position: SWE Student
-  email: abid@iut-dhaka.edu
+  email: muhtasimabid@iut-dhaka.edu
   student_id: 170042035
 
 - name: Md. Zubair Rahman Tusar
-  photo: 
+  photo: Zubair-Rahman-Tusar.jpg
   current_position: SWE Student
-  email: zubair@iut-dhaka.edu
+  email: zubairrahman@iut-dhaka.edu
   student_id: 170042067
 
 - name: Mahir Ashraf Emad

@@ -1,4 +1,17 @@
 ###2020###
+
+#Journal
+- title: "Use of relevancy and complementary information for discriminatory gene selection from high-dimensional cancer data"
+  authors:  Haque, Md Nazmul and Sharmin, Sadia and Ali, Amin Ahsan and Sajib, Abu Ashfaqur and Shoyaib, Mohammad.
+  booktitle: "International Journal of Forensic Software Engineering, Vol. 1, No. 1, 2019, Inderscience Enterprises Ltd, pp: 47 - 72."
+  year: 2020
+  domain_id: 
+  type: Journal
+  pdf: ""
+  url: "#"
+  doi: "#"
+  code_link:  "#"
+
 # #Arxiv
 # - title: "Impact on the Productivity of Remotely Working IT Professionals of Bangladesh during the Coronavirus Disease 2019"
 #   authors: Kishan Kumar Ganguly, Noshin Tahsin, Mridha Md Fuad, Toukir Ahammed, Moumita Asad, Fatiul Huq Sujoy, ATM Rabbi, Kazi Sakib
@@ -11,44 +24,19 @@
 #   doi:
 #   code_link:
 
-# #Journal
-# - title: "A Novel Approach for Converting N-Dimensional Dataset into Two Dimensions to Improve Accuracy in Software Defect Prediction"
-#   authors: Rayhanul Islam, Abdus Satter, Atish Kumar Dipongkor, Md. Saeed Siddik, Kazi Sakib
-#   booktitle: "Journal of Software, Vol: 15, No. 6, pp: 147 - 162."
-#   year: 2020
-#   domain_id: software_testing
-#   type: Journal
-#   pdf: "http://www.iit.du.ac.bd/about_iit/download/374"
-#   url: "#"
-#   doi: "#"
-#   code_link:  "#"
-
-
-# #Conf-37
-# - title: "Understanding the Involvement of Developers in Missing Link Community Smell: An exploratory Study on Apache Projects"
-#   authors: Toukir Ahammed, Moumita Asad, Kazi Sakib
-#   booktitle: "In proceedings of the 8th International Workshop on Quantitative Approaches to Software Quality (QuASoQ20) co-located with 27th Asia-Pacific Software Engineering Conference (APSEC 2020) Singapore, December, 2020, pp: 64 - 70."
-#   year: 2019
-#   domain_id: software_project_management
-#   type: Conference
-#   pdf: "http://www.iit.du.ac.bd/about_iit/download/381"
-#   url: "#"
-#   doi: "#"
-#   code_link:  "#"
+#Conf-37
+- title: "An Ensemble Approach to Detect Code Comment Inconsistencies using Topic Modeling."
+  authors: Rabbi, Fazle and Haque, Md Nazmul and Kadir, Md Eusha and Siddik, Md Saeed and Kabir, Ahmedul
+  booktitle: "In proceedings of SEKE; pp: 392--395"
+  year: 2020
+  domain_id: mining_software_repository
+  type: Conference
+  pdf: ""
+  url: "#"
+  doi: "#"
+  code_link:  "#"
 
 ###2019###
-
-# #Journal
-# - title: "Prioritising test cases by collaborating artifacts of software development life cycle"
-#   authors:  Md Saeed Siddik, Md Abdur Rahman and Kazi Sakib.
-#   booktitle: "International Journal of Forensic Software Engineering, Vol. 1, No. 1, 2019, Inderscience Enterprises Ltd, pp: 47 - 72."
-#   year: 2019
-#   domain_id: software_testing
-#   type: Journal
-#   pdf: "http://www.iit.du.ac.bd/about_iit/download/357"
-#   url: "#"
-#   doi: "#"
-#   code_link:  "#"
 
 #Conf-30
 - title: "On the Evolutionary Relationship between Change Coupling and Fix-Inducing Changes"
@@ -58,6 +46,44 @@
   domain_id: fix_iducing_changes
   type: Conference
   pdf: "http://www.iit.du.ac.bd/about_iit/download/343"
+  url: "#"
+  doi: "#"
+  code_link:  "#"
+
+#Conf-30
+- title: "An Empirical Study on Clone Evolution by Analyzing Clone Lifetime"
+  authors: Md. Jubair Ibna Mostafa
+  booktitle: "In Proceedings of the IEEE 13th International Workshop on Software Clones (IWSC 2019), pages: 20 - 26."
+  year: 2019
+  domain_id: code_clone
+  type: Conference
+  pdf: "#"
+  url: "#"
+  doi: "10.1109/IWSC.2019.8665850"
+  code_link:  "#"
+
+#Conf-30
+- title: "Analyzing Corrective Maintenance using Change Coupled Clusters at Fix-inducing Changes"
+  authors: Ali Zafar Sadiq, Ahmedul Kabir, Pritom Saha Akash, Md Jubair Ibna Mostafa
+  booktitle: "In Proceedings of the International Conference on Electrical, Computer and Communication Engineering (ECCE 2019), pages: 1 - 6."
+  year: 2019
+  domain_id: fix_iducing_changes
+  type: Conference
+  pdf: ""
+  url: "#"
+  doi: "#"
+  code_link:  "#"
+
+###2018###
+
+#Conf-30
+- title: "Bug Severity Classification Based on Class-Membership Information"
+  authors: Alia, Sayeda Shamma and Haque, Md Nazmul and Sharmin, Sadia and Khaled, Shah Mostafa and Shoyaib, Mohammad
+  booktitle: "2018 Joint 7th International Conference on Informatics, Electronics & Vision (ICIEV) and 2018 2nd International Conference on Imaging, Vision & Pattern Recognition (icIVPR)"
+  year: 2018
+  domain_id: bug_analysis
+  type: Conference
+  pdf: ""
   url: "#"
   doi: "#"
   code_link:  "#"
